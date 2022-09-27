@@ -9,15 +9,15 @@ router.get('/', async (req, res) => {
   try {
     const productData = await Product.findAll({
        // include its associated Category and Tag data
-       include: [
-        {
-          model: Category
-        },
-        {
-          model: Tag,
-          through: ProductTag
-        }
-       ]
+        include: [
+          {
+            model: Category
+          },
+          {
+            model: Tag,
+            through: ProductTag
+          }
+        ]
     });
     res.status(200).json(productData);
   }
@@ -137,16 +137,12 @@ router.put('/:id', (req, res) => {
 router.delete('/:id', async (req, res) => {
   try {
     const productData = await Product.destroy({
-      where: {
-        id: req.params.id,
-      }
+      where: {id: req.params.id}
     });
 
     if (!productData) {
       res.status(404).json(
-        {
-          message: 'Sorry, no product has been found with this ID!'
-        }
+        {message: 'Sorry, no product has been found with this ID!'}
       );
       return;
     }
