@@ -20,7 +20,7 @@ During this project, I became more comfortable with writing back-end code for AP
 
 ## Mock-Up
 
-App demonstration video is available [♡ here ♡](https://cmariego97.github.io/Work-Day-Scheduler/):
+App demonstration video is available [♡ here ♡](https://streamable.com/47d79r):
 
 ![application demo video](./assets/demonstration/e-commerce%20back-end%20demo.gif)
 
