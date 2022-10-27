@@ -7,7 +7,6 @@ This project utilizes Sequelize and the GET, POST, PUT, and DELETE methods to bu
 
 During this project, I became more comfortable with writing back-end code for API routes and using Insomnia.
 
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -18,6 +17,12 @@ During this project, I became more comfortable with writing back-end code for AP
 - [Credits](#credits)
 - [Tests](#tests)
 - [Author](#about-the-author)
+
+## Mock-Up
+
+App demonstration video is available [♡ here ♡](https://cmariego97.github.io/Work-Day-Scheduler/):
+
+![application demo video](./assets/demonstration/e-commerce%20back-end%20demo.gif)
 
 ## Installation
 
